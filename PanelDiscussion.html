@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNT Cybersecurity - Panel Discussion</title>
     <style>
-                body {
+        body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             margin: 0;
@@ -18,57 +18,54 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            text-align: left;
         }
 
         .centered-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 65%; 
-    height: auto;
-    width: auto; 
-    object-fit: contain; 
-}
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 65%; 
+            height: auto;
+            width: auto; 
+            object-fit: contain; 
+        }
         .header {
             text-align: center;
-            font-size: 18px; /* Arial 18 */
-            font-weight: normal; /* Not bold */
+            font-size: 18px; 
+            font-weight: normal; 
             margin-bottom: 20px;
         }
         .sub-header {
             text-align: center;
-            font-size: 17px; /* Arial 17 */
-            font-weight: bold; /* Bold */
+            font-size: 17px; 
+            font-weight: bold; 
             margin-bottom: 20px;
-            /*font-style: italic;*/
         }
-        
         .panel-info {
             text-align: center;
             margin-bottom: 20px;
         }
-
         .event-info {
             text-align: center;
-            font-size: 15px; /* Arial 12 */
+            font-size: 15px; 
             margin-bottom: 30px;
         }
         .speaker {
-            margin-bottom: 10px;
+            margin-bottom: 40px;
         }
         .speaker-title {
-            font-size: 15px; /* Arial 17 */
+            font-size: 15px; 
             font-weight: bold;
             text-decoration: underline;
             margin-bottom: 10px;
         }
         .speaker-info {
-            font-size: 12px; /* Arial 12 */
+            font-size: 12px; 
             margin-bottom: 10px;
         }
         .speaker-bio {
-            font-size: 14px; /* Arial 17 */
+            font-size: 14px; 
             line-height: 1.5;
             text-align: justify;
         }
@@ -82,77 +79,92 @@
         .clear {
             clear: both;
         }
-      h1, h2 {
-            color: black; /* Set color to black */
-            font-size: 1.5em; /* Make both h1 and h2 the same font size */
+        h1, h2 {
+            color: black; 
+            font-size: 1.5em; 
         }
         h1 {
-            font-weight: normal; /* Make h1 not bold */
+            font-weight: normal; 
         }
         h2 {
-            font-weight: bold; /* Keep h2 bold */
+            font-weight: bold; 
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="media/Picture5.png" alt="UNT Cybersecurity Symposium Logo">
-    </div>
+    <div class="container">
+        <div class="header">
+            <img src="media/Picture5.png" alt="UNT Cybersecurity Symposium Logo" class="centered-image">
+        </div>
 
-    <div class="panel-info">
-        <h1>Panel Talk and Discussion</h1>
-        <h2>AI and Security: Exploring Risk Factors, Trust, and Policy Implications</h2>
-        <p><strong>Chair: Dr. Dan J. Kim, University of North Texas </strong> </p>
-        <p>October 31, 2024, 2:00 - 3.30</p>
-        
+        <div class="panel-info">
+            <h1>Panel Talk and Discussion</h1>
+            <h2>AI and Security: Exploring Risk Factors, Trust, and Policy Implications</h2>
+            <p><strong>Chair: Dr. Dan J. Kim, University of North Texas </strong></p>
+            <p>October 31, 2024, 2:00 - 3.30</p>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-bio">
+                <table style="width: 100%">
+                    <tr>
+                        <td style="height: 144px">
+                            <span class="speaker-title">Opening Talk #1: What Went Wrong? Identifying Risk Factors for Popular Negative Consequences in AI</span><br />
+                            <br />
+                            David P. Biros, Ph.D. (Lt Col USAF Retired)<br>
+                            Associate Professor, Fleming Chair in IT Management<br>
+                            Management Science and Information Systems, Oklahoma State University
+                        </td>
+                        <td style="height: 144px">
+                            <img src="media/Picture1.jpg" alt="David Biros">
+                        </td>
+                    </tr>
+                </table>
+                David Biros is an Associate Professor of Management Science and Information Systems and Fleming Chair of Information Technology Management at Oklahoma State University. A retired Lieutenant Colonel of the United States Air Force, Dr. Biros’ last assignment was as Chief, Information Assurance Officer for the AF-CIO. His research interests included deception detection, insider threat, information system trust and artificial intelligence.
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-bio">
+                <table style="width: 100%">
+                    <tr>
+                        <td style="height: 152px">
+                            <span class="speaker-title">Opening Talk #2: Bridging the Trust Gap: The Impact of Responsible AI on Organizational Trust and Social Performance</span><br />
+                            <br />
+                            Yulia Sullivan, Ph.D.<br>
+                            Associate Professor<br>
+                            Hankamer School of Business<br>
+                            Baylor University
+                        </td>
+                        <td style="height: 152px">
+                            <img src="media/Picture2.png" alt="Yulia Sullivan">
+                        </td>
+                    </tr>
+                </table>
+                Yulia Sullivan is an associate professor at Baylor University. Her research interests include cognitive information systems, artificial intelligence and ethics, and human-computer interaction.
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-bio">
+                <table style="width: 100%">
+                    <tr>
+                        <td style="height: 150px">
+                            <span class="speaker-title">Opening Talk #3: Externalities in Ransom Payments: Implications for Policymakers</span><br />
+                            <br />
+                            Atanu Lahiri, Ph.D.<br>
+                            Associate Professor of Information Systems<br>
+                            Jindal School of Management<br>
+                            University of Texas at Dallas
+                        </td>
+                        <td style="height: 150px">
+                            <img src="media/Picture3.png" alt="Atanu Lahiri">
+                        </td>
+                    </tr>
+                </table>
+                Atanu Lahiri is an associate professor at the University of Texas at Dallas. His research includes digital piracy, software security, telecommunications, and health IT.
+            </div>
+        </div>
     </div>
-    <div class="speaker">
-   <div class="speaker-bio" style="text-align: justify">
-        <table style="width: 100%">
-            <tr>
-                <td style="height: 144px"><span style="text-decoration: underline; font-size: 15px"><strong>Opening Talk #1: What Went Wrong? Identifying Risk Factors for Popular Negative Consequences in AI<br />
-                    </strong></span>
-                    <br />
-                    David P. Biros, Ph.D. (Lt Col USAF Retired)<br>Associate Professor, Fleming Chair in IT Management<br>Management Science and Information Systems, Oklahoma State University</td>
-                <td style="height: 144px">
-                     <img src="media/Picture1.jpg" alt="David Biros">
-                    
-                </td>
-            </tr>
-        </table>
-        David Biros is an Associate Professor of Management Science and Information Systems and Fleming Chair of Information Technology Management at Oklahoma State University. A retired Lieutenant Colonel of the United States Air Force, Dr. Biros’ last assignment was as Chief, Information Assurance Officer for the AF-CIO. His research interests included deception detection, insider threat, information system trust and artificial intelligence. He has been published MIS Quarterly, the Journal of Management Information Systems, Decision Support Systems, Group Decision and Negotiation, MISQ Executive, the Journal of Information Systems Education, and other journals and conference proceedings.     
-    </div>
-</div>
-<div class="speaker">
-   <div class="speaker-bio" style="text-align: justify">
-        <table style="width: 100%">
-            <tr>
-                <td style="height: 152px"><span style="text-decoration: underline"><strong>Opening Talk #2: Bridging the Trust Gap: The Impact of Responsible AI on Organizational Trust and Social Performance<br />
-                    </strong></span><br />
-                    Yulia Sullivan, Ph.D.<br>Associate Professor<br>Hankamer School of Business<br> Baylor University</td>
-                <td style="height: 152px">
-                      <img src="media/Picture2.png" alt="Yulia Sullivan">
-                    
-                </td>
-            </tr>
-        </table>
-        Yulia Sullivan is an associate professor of Information Systems and Business Analytics (ISBA) at Hankamer School of Business, Baylor University. She earned her PhD degree in information systems from the University of North Texas. Her research interests encompass a diverse range of topics, including cognitive information systems, the value of IT for organizations, artificial intelligence and ethics, human-computer interaction, and research methods. Sullivan has published in premier outlets, such as MIS Quarterly, Journal of the Association for Information Systems, Journal of Business Ethics, Annals of Operations Research, Journal of Business Research, and International Journal of Information Management, among others. She is also a co-author of the textbook titled "Conducting Mixed-Methods Research: From Classical Social Sciences to the Age of Big Data and Analytics," contributing her expertise in the mixed-methods area. Sullivan was honored with the Habicht Early Career Research Award by the Hankamer School of Business. She was also a recipient of Baylor’s Outstanding Faculty Research Award (Tenured) in 2024. Sullivan currently serves as a board member of the Responsible Research in Business and Management Honor Roll, an international non-profit organization dedicated to promoting credible and valuable research in the business and management disciplines. She also currently serves as the undergraduate program director for the ISBA Department at Hankamer School of Business, Baylor University.
-    </div>
-</div>
-    <div class="speaker">
-    <div class="speaker-bio" style="text-align: justify">
-        <table style="width: 100%">
-            <tr>
-                <td style="height: 150px"><span style="text-decoration: underline; font-size: 15px"><strong>Opening Talk #3: Externalities in Ransom Payments: Implications for Policymakers<br /></strong></span>
-                    <br />Atanu Lahiri, Ph.D.<br>Associate Professor of Information Systems<br />Jindal School of Management<br />University of Texas at Dallas</td>
-                <td style="height: 150px">
-                    <img src="media/Picture3.png" alt="Atanu Lahiri">
-                    
-                </td>
-            </tr>
-        </table>
-        Atanu Lahiri is an associate professor at the Jindal School of Management, University of Texas at Dallas. He received his PhD from the Simon School of Business, University of Rochester.  He also has significant consulting experience and has served several years as an SAP consultant at organizations such as Eastman Kodak Company and Miller Brewing Company. Prof. Lahiri’s current research interests include digital piracy, software security, telecommunications, and health IT. His primary reference disciplines are economics, econometrics, and stochastic models. His papers have appeared in premier journals such as Management Science, MIS Quarterly, Information Systems Research, Manufacturing & Service Operations Management, INFORMS Journal on Computing, and the Journal of Management Information Systems. He has received the prestigious Sandra Slaughter Early Career Award from the Information Systems Society of INFORMS. He currently serves as an associate editor for Information Systems Research and the Journal of the Association of Information Systems. He is also serving as an associate editor for MIS Quarterly’s special issue on Artificial Intelligence-Information Assurance Nexus. His current teaching interests include databases/data warehousing, information security, computer networks, and cloud computing.
-    </div>
-</div>
 </body>
 </html>
